@@ -8,7 +8,7 @@
 <body>
 <div class="p-5 mb-5 text-center</> bg-light">
     <h1 class="mb-3">My Blog</h1>
-    <h4 class="mb-3">블로그에 오신 것을 환영합니다.</h4>
+    <h4 class="mb-3">Welcome</h4>
 </div>
 
 <div class="container mt-5">
@@ -25,9 +25,9 @@
                 </section>
                 <button type="button" id="modify-btn"
                         th:onclick="|location.href='@{/new-article?id={articleId}(articleId=${article.id})}'|"
-                        class="btn btn-primary btn-sm">수정</button>
+                        class="btn btn-primary btn-sm">修正</button>
                 <button type="button" id="delete-btn"
-                        class="btn btn-secondary btn-sm">삭제</button>
+                        class="btn btn-secondary btn-sm">削除</button>
             </article>
         </div>
     </div>
